@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>portfolio</title>
+</head>
+<body>
+    <div class="main">
+        <div class="page1" id="div1">
+            <div class="nav">
+                <div class="logo">
+                    <img src="logo.png" >
+                    <h1>NEHA'S PORTFOLIO</h1>
+                </div>
+                <div class="part">
+                    <a href="#div1">Home</a>
+                    <a href="#div2">About</a>
+                    <a href="#div3">Skills</a>
+                    <a href="#div4">project</a> 
+                    <a href="#div5">resume</a>
+                    <a href="#div5">contact</a> 
+                </div>
+            </div>
+            <div class="intro">
+                <span><h2>Welcome to my Portfolio Page</h2></span>
+                <p>My name is Neha Pal and I am a passionate web developer with experience in creating modern and responsive websites.
+                </p>
+                <div class="icon">
+                    <button onclick="scrollToDown()">About Me <i class="fa-solid fa-circle-arrow-down"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="page2" id="div2">
+            <div class="picture">
+                <img src="personal.jpg">
+            </div>
+            <div class="about">
+                <h1>ABOUT ME</h1>
+                <p>I am currently pursuing my B.Tech degree from Narula Institute of Technology in Computer Science and Engineering. I am hard worker,good listner,and very much dedicated to my work . My long term goal is to achieve a great position in technical world. My short term goal is to learn new things and technologies to upgrade my skills. </p>
+            </div>
+        </div>
+        <div class="page3" id="div3">
+            <h1>showc <span>asing m </span>y  skills</h1>
+            <div class="skills">
+                <div class="box">
+                    <div class="box-content">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Coding</h2>
+                        <div class="list">
+                            <ul>
+                                <p>C</p>
+                                <p>C++</p>
+                                <p>JAVA</p>
+                                <p>PYTHON</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <i class="fa-solid fa-terminal"></i>
+                        <h2>Developing</h2>
+                        <div class="list">
+                            <ul>
+                                <p>HTML</p>
+                                <p>CSS</p>
+                                <p>JAVASCRIPT</p>
+                                <p>REACTJS</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <i class="fa-regular fa-file-lines"></i>
+                        <h2>General</h2>
+                        <div class="list">
+                            <ul>
+                                <p>MS-WORD</p>
+                                <p>MS-POWERPOINT</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page4" id="div4">
+            <div class="head">
+                <div class="bar"></div>
+                <h1>my work</h1>
+            </div>
+            <div class="project">
+                <div class="p" id="p1">
+                    <div>
+                    <i class="fa-solid fa-calculator"></i>
+                    <span>
+                        <h1>Calculator</h1>
+                        <p>with basic arithmatic functions including advanced math functions</p>
+                    </span>
+                    </div>
+                    <div>
+                        <img src="cal.png" alt="">
+                    </div>
+                </div>
+                <div class="p" id="p2">
+                    <div>
+                        <img src="clone.png" alt="">
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>
+                            <h1>Amazon Clone</h1>
+                            <p>trying to make a clone of a known website using HTML and CSS</p>
+                        </span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="page5" id="div5">
+            <div class="sec1">
+                <div class="resume">
+                    <h1>Want to know more about myself !?</h1>
+                    <img src="resume.jpg">
+                    <h3>HERE YOU CAN DOWNLOAD MY RESUME!!!</h3>
+                    <a href="cv (1).pdf">Click Here To Download The File In (.pdf) Format</a>
+                </div>
+                <div class="line"></div>
+                    <div class="contact">
+                        <h1>Get in Touch</h1>
+                        <span>I will be glad to work with you and to start a new project</span>
+                        <form>
+                            <p>NAME<sup>*</sup></p>
+                            <div class="name">
+                                <input type="text" placeholder="enter your first name"/>
+                                <input type="text" placeholder="enter your last name"/>
+                            </div>
+                            <div class="label">
+                                <p>FIRST NAME</p>
+                                <p>LAST NAME</p>
+                            </div>
+                            <p>PHONE NUMBER<sup>*</sup></p>
+                            <input type="number" placeholder="enter your contact number"/>
+                            <br>
+                            <p>EMAIL ID<sup>*</sup></p>
+                            <input id="m1" type="text" placeholder="enter your email id"/>
+                            <br>
+                            <p>MESSAGE</p>
+                            <textarea type="text" placeholder="enter your message"></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+            </div>
+            
+            <div class="sec2">
+                <div class="copyright">
+                    <p>&copy; 2024 Neha Pal. All rights reserved.</p>
+                </div>
+                <div class="footer">
+                    <a href="npal92095@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/neha-pal-ab591b281/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/NehaPal2005"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function scrollToDown()
+        {
+            const targetDiv=document.getElementById('div2')
+            targetDiv.scrollIntoView({behavior:"smooth"})
+        }
+    </script>
+</body>
+</html>
